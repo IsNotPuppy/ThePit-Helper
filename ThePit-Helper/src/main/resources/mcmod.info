@@ -1,0 +1,16 @@
+[
+{
+  "modid": "pithelper",
+  "name": "ThePit-Helper",
+  "description": "The pit game assistant mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["IsNotPuppy"],
+  "credits": "IsNotPuppy",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
