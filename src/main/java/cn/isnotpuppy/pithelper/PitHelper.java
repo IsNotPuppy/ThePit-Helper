@@ -34,13 +34,13 @@ public class PitHelper {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-
-        autoWalk = new AutoWalk();
+        new eventLoader();
+        //autoWalk = new AutoWalk();
         quickMath = new QuickMath();
 
         config = new Config(false,false);
 
-        autoWalk.init(event);
+//        autoWalk.init(event);
         quickMath.init(event);
 
         ClientCommandHandler.instance.registerCommand(new commandAutoWalk());
